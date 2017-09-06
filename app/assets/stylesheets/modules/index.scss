@@ -1,0 +1,32 @@
+@import 'variables';
+body {
+  background-color: $main;
+  text-align: center;
+  padding-top: 10px;
+  font-family: $main-font;
+  color: $teal;
+
+  h2 {
+    font-size: 200%;
+    color: $chartred;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li { text-align: right; }
+  }
+
+  a {
+    text-decoration: none;
+    color: $teal;
+    &:hover { color: $lightblue; }
+  }
+}
+
+#main-app {
+  padding-top: 40px;
+  font-family: $main-font;
+  h4 { font-size: 130%; padding: 20px 0px; }
+  ul { text-align: center; }
+}
